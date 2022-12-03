@@ -55,12 +55,12 @@ img {
 }
 
 .wrapper {
-  max-width: 660px;
+  max-width: 860px;
   margin: 0 auto;
 }
 
 #header {
-  margin-top: 62px;
+  margin-top: 38px;
   padding-bottom: 22px;
 /*  border-bottom: 1px solid #e1e1e1;
 */  margin-bottom: 22px;
@@ -71,7 +71,7 @@ img {
 }
 
 #header h1 {
-  font-size: 300%;
+  font-size: 260%;
 }
 
 .clearfix:after {
@@ -83,6 +83,24 @@ img {
 #content {
   font-size: 1.8em;
 }
+
+
+.prompt {
+  font-weight: 800;
+}
+
+
+#subjectToPoem {
+  margin-left: 174px;
+  height: 84px;
+}
+
+
+#goneBeyond {
+  margin-left: 50%;
+}
+
+
 
 .story-block {
   padding: 3px 22px 22px;
@@ -133,10 +151,17 @@ textarea#output {
   background-color: #ffc7c6;
 }
 
+.output {
+/*  opacity: 0;*/
+}
+/*.output.visible {
+  animation: fadeIn 5s;
+}*/
 
-
-
-
+/*@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}*/
 
 
 
