@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html * {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+body {
+/*  background: linear-gradient(-45deg, #ccd5ae, #e9edc9, #fefae0, #faedcd);*/
+  background: linear-gradient(-45deg, #f8edeb, #fcd5ce, #f8edeb, #ffd6ff);
+  background-size: 600% 600%;
+  animation: gradient 16s ease infinite;
+  height: 100vh;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 90% 40%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+body {
+  font-size: 14px;
+  font-family: "Playfair Display", serif;
+/*  font-family: "Helvetica";
+*/  color: black;
+  background-color: white;
+}
+
+p {
+  color: black;
+}
+
+a {
+  color: crimson;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.wrapper {
+  max-width: 660px;
+  margin: 0 auto;
+}
+
+#header {
+  margin-top: 62px;
+  padding-bottom: 22px;
+/*  border-bottom: 1px solid #e1e1e1;
+*/  margin-bottom: 22px;
+  text-align: center;
+}
+#header h1 {
+  font-style:  italic;
+}
+
+#header h1 {
+  font-size: 300%;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#content {
+  font-size: 1.8em;
+}
+
+.story-block {
+  padding: 3px 22px 22px;
+  border-bottom: 1px solid #e1e1e1;
+  margin-bottom: 22px;
+}
+
+.story-block:last-of-type {
+  border-bottom: none;
+  margin-bottom: 82px;
+}
+
+.story-block .thumbnail {
+  float: left;
+  max-width: 22%;
+  margin-right: 32px;
+}
+
+button {
+  font-family: "Playfair Display";
+    background-color: transparent;
+    color: black;
+    padding: 12px 18px;
+    border: 1px solid black;  
+    font-size: 120%;
+  font-weight: 900;
+  display:  block;
+  margin:  80px auto 100px;
+}
+button:hover {
+  cursor:  pointer;
+}
+button:active {
+  position: relative;
+  top: 2px;
+  left: 2px;
+}
+button:active,
+button:focus { outline:none } 
+
+textarea#output {
+  font-size: 1.5em;
+  margin-top: 22px;
+  width: 100%;
+  padding: 22px;
+  border-radius: 1px;
+  border: 1px solid brown;
+  background-color: #ffc7c6;
+}
+
+
+
+
+
+
+
+
