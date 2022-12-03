@@ -128,7 +128,7 @@ button {
     font-size: 120%;
   font-weight: 900;
   display:  block;
-  margin:  80px auto 100px;
+  margin:  80px auto 80px;
 }
 button:hover {
   cursor:  pointer;
