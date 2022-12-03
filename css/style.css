@@ -129,9 +129,11 @@ button {
   font-weight: 900;
   display:  block;
   margin:  80px auto 80px;
+  transition: .5s opacity;
 }
 button:hover {
   cursor:  pointer;
+  opacity:  .4;
 }
 button:active {
   position: relative;
