@@ -12,12 +12,10 @@ html * {
 }
 
 
-body {
+html, body {
 /*  background: linear-gradient(-45deg, #ccd5ae, #e9edc9, #fefae0, #faedcd);*/
-  background: linear-gradient(-45deg, #f8edeb, #fcd5ce, #f8edeb, #ffd6ff);
-  background-size: 600% 600%;
-  animation: gradient 16s ease infinite;
-  height: 100vh;
+margin: 0;
+padding: 0;
 }
 
 @keyframes gradient {
@@ -34,11 +32,45 @@ body {
 
 
 body {
+    background: linear-gradient(-45deg, #f8edeb, #fcd5ce, #f8edeb, #ffd6ff);
+  background-size: 600% 600%;
+  animation: gradient 12s ease infinite;
+  height: 100vh;
   font-size: 14px;
   font-family: "Playfair Display", serif;
 /*  font-family: "Helvetica";
 */  color: black;
-  background-color: white;
+  min-height: 100%;
+padding: 0;
+position: relative;
+}
+
+/*.inner-body {
+    height: 100vh;
+    background-image: url('../images/7-noise-texture-overlays-1.png');
+    background-size: cover;
+    position: fixed;
+    top:  0;
+    left:  0;
+    width:  100%;
+}*/
+.inner-body {
+  position: relative;
+  z-index: 1;
+  padding: 22px;
+}
+
+.inner-body::before {
+  content: "";
+  position: absolute;
+  top: 0; 
+  left: 0;
+  width: 100%; 
+  height: 100vh;  
+  opacity: .1; 
+  z-index: -1;
+  background-image: url('../images/7-noise-texture-overlays-4.png');
+  background-size: cover;
 }
 
 p {
@@ -92,7 +124,8 @@ img {
 
 #subjectToPoem {
   margin-left: 174px;
-  height: 84px;
+  height: 140px;
+  max-width: 600px;
 }
 
 
@@ -100,7 +133,9 @@ img {
   margin-left: 50%;
 }
 
-
+p {
+  margin:  0px 0px 8px;
+}
 
 .story-block {
   padding: 3px 22px 22px;
@@ -128,7 +163,7 @@ button {
     font-size: 100%;
   font-weight: 900;
   display:  block;
-  margin:  40px auto 80px;
+  margin:  40px auto 66px;
   transition: .5s opacity;
 }
 button:hover {

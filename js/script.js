@@ -22,7 +22,7 @@ jQuery(document).ready(function($){
 			"Disharmonic dings for texts & direct messages & Twitter comments & eBay alerts & stock market motion",
 			"Tepid breath at nostril tip refusing to seduce as strongly as all this flurry around me",
 			"The habit of reaching for my phone",
-			"Siddhartha in multiplicity all around the wat: concrete, wood, brass, plastic     Some statues small enough to fit in cupped hands    Some grand enough to burst the roof of any place I've ever lived",
+			"Siddhartha in multiplicity all around the wat: concrete, wood, brass, plastic    Some statues small enough to fit in cupped hands    Some grand enough to burst the roof of any place I've ever lived",
 			"Avoiding what I don't like",
 			"Language without contradiction existing underneath the language I know",
 			"Inevitably American voices overriding the tuk-tuk motors and car horns",
