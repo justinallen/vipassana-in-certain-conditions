@@ -125,10 +125,10 @@ button {
     color: black;
     padding: 12px 18px;
     border: 1px solid black;  
-    font-size: 120%;
+    font-size: 100%;
   font-weight: 900;
   display:  block;
-  margin:  80px auto 80px;
+  margin:  40px auto 80px;
   transition: .5s opacity;
 }
 button:hover {
