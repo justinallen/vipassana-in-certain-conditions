@@ -132,6 +132,7 @@ img {
 #goneBeyond {
   margin-left: 20%;
   text-align: right;
+  min-height: 200px;
 }
 #goneBeyondPoem {
   margin-right: 93px;
@@ -207,6 +208,37 @@ textarea#output {
   0% { opacity: 0; }
   100% { opacity: 1; }
 }*/
+
+/* mobile styles */
+
+@media screen and (max-width:  680px) {
+
+  #content {
+    font-size: 1.6em;
+  }
+
+  #subjectTo {
+
+  }
+  #subjectToPoem {
+    margin-left: 0px;
+  }
+  #goneBeyond {
+    margin-left: 0%;
+  }
+  #goneBeyondPoem {
+    margin-right: 0px;
+  }
+
+}
+
+@media screen and (max-width:  480px) {
+  #content {
+    font-size: 1.4em;
+  }
+}
+
+
 
 
 
