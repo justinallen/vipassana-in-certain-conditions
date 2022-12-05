@@ -130,8 +130,13 @@ img {
 
 
 #goneBeyond {
-  margin-left: 50%;
+  margin-left: 40%;
+  text-align: right;
 }
+#goneBeyondPoem {
+  margin-right: 93px;
+}
+
 
 p {
   margin:  0px 0px 8px;
