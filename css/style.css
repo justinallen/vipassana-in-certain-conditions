@@ -117,7 +117,15 @@ img {
 #content {
   font-size: 1.8em;
 }
-
+#content.about {
+  font-size: 1.6em;  
+}
+#content.about p {
+  width: 100%;
+  max-width: 680px;
+  margin: 0px auto 22px auto;
+  line-height: 1.5em;
+}
 
 .prompt {
   font-weight: 800;
