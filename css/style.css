@@ -92,12 +92,16 @@ img {
   max-width: 860px;
   margin: 0 auto;
 }
+.wrapper.main {
+  position: relative;
+  padding-top:12px;
+}
 
 #header {
   margin-top: 38px;
-  padding-bottom: 22px;
+  padding-bottom: 6px;
 /*  border-bottom: 1px solid #e1e1e1;
-*/  margin-bottom: 22px;
+  margin-bottom: 22px; */
   text-align: center;
 }
 #header h1 {
@@ -130,6 +134,14 @@ img {
 .prompt {
   font-weight: 800;
 }
+
+.helpertext {
+  position: absolute;
+  text-align: center;
+  top: 4px;
+  width: 100%;
+}
+
 
 
 #subjectToPoem {

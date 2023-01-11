@@ -2,6 +2,8 @@ jQuery(document).ready(function($){
 
 	$("#generate").on("click", function(){
 
+		$(".helpertext").fadeOut();
+
 		$("#subjectToPoem").hide();
 		$("#goneBeyondPoem").hide();
 
