@@ -80,8 +80,8 @@ p {
 }
 
 a {
-  color: crimson;
-  text-decoration: none;
+  color: black;
+  text-decoration: underline;
 }
 
 img {
@@ -95,6 +95,7 @@ img {
 .wrapper.main {
   position: relative;
   padding-top:12px;
+  margin-bottom: 64px;
 }
 
 #header {
